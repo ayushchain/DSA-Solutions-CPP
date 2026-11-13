@@ -22,8 +22,13 @@ Each file prints `OK` per test case and exits non-zero if any case fails.
 | 03 | Fruit Into Baskets | ✅ solved — same window with k = 2, O(n) |
 | 04 | Longest Repeating Character Replacement | ⏳ practice — mock pending, Step 1 approach first, no solution yet |
 
+### Trees (started 13 Nov 2026)
+| # | Problem | Status |
+|---|---------|--------|
+| 01 | Validate Binary Search Tree (LeetCode 98) | ✅ solved — DFS + bounds propagation, O(n). Trap to remember: parent-only checks pass [10,5,15,null,null,6,20]; bounds catch it. |
+
 ## Next (in prep-plan order)
-Two Pointers — taught fully first, then one mock, same as above.
+Two Pointers and more Trees — taught fully first, then one mock, same as above.
 
 ## Prep plan
 `Amazon_Interview_Prep_Plan.md` — the full pattern order (arrays/hashmap,
