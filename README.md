@@ -27,8 +27,18 @@ Each file prints `OK` per test case and exits non-zero if any case fails.
 |---|---------|--------|
 | 01 | Validate Binary Search Tree (LeetCode 98) | ✅ solved — DFS + bounds propagation, O(n). Trap to remember: parent-only checks pass [10,5,15,null,null,6,20]; bounds catch it. |
 
+### Arrays & Sorting (started 13 Nov 2026)
+| # | Problem | Status |
+|---|---------|--------|
+| 01 | Max Chunks To Make Sorted II (LeetCode 768) | ✅ solved — sorting + frequency balance, O(n log n). The 769 max-so-far trick fails here because duplicates are allowed. |
+
+### Dynamic Programming (started 13 Nov 2026)
+| # | Problem | Status |
+|---|---------|--------|
+| 01 | Palindrome Partitioning II (LeetCode 132) | ✅ solved — palindrome table + minimum-cuts DP, O(n²). Trick to remember: dp[0] = −1 makes a fully-palindromic string give 0 cuts. |
+
 ## Next (in prep-plan order)
-Two Pointers and more Trees — taught fully first, then one mock, same as above.
+Two Pointers, more Trees and DP — taught fully first, then one mock, same as above.
 
 ## Prep plan
 `Amazon_Interview_Prep_Plan.md` — the full pattern order (arrays/hashmap,
